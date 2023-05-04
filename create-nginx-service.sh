@@ -1,0 +1,1 @@
+docker service create --name web-server --replicas 10 -p 8080:80 nginx
